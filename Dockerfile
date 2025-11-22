@@ -6,4 +6,4 @@ COPY . .
 ARG RAILWAY_STATIC_URL
 ARG PUBLIC_URL
 ARG PORT
-CMD ["node", "app.js"]
+CMD ["npm", "run", "start"]
